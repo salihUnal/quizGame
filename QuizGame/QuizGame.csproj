@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A3174D8-1122-44BC-A252-39298AC9DB12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuizGame</RootNamespace>
+    <AssemblyName>QuizGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Succodesign-Love-Is-In-The-Web-Heart.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cevap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap10.Designer.cs">
+      <DependentUpon>cevap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap2.Designer.cs">
+      <DependentUpon>cevap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap3.Designer.cs">
+      <DependentUpon>cevap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap4.Designer.cs">
+      <DependentUpon>cevap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap5.Designer.cs">
+      <DependentUpon>cevap5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap6.Designer.cs">
+      <DependentUpon>cevap6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap7.Designer.cs">
+      <DependentUpon>cevap7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap8.Designer.cs">
+      <DependentUpon>cevap8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap9.Designer.cs">
+      <DependentUpon>cevap9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quiz.Designer.cs">
+      <DependentUpon>quiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cevap1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cevap1.Designer.cs">
+      <DependentUpon>cevap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cevap10.resx">
+      <DependentUpon>cevap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap2.resx">
+      <DependentUpon>cevap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap3.resx">
+      <DependentUpon>cevap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap4.resx">
+      <DependentUpon>cevap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap5.resx">
+      <DependentUpon>cevap5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap6.resx">
+      <DependentUpon>cevap6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap7.resx">
+      <DependentUpon>cevap7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap8.resx">
+      <DependentUpon>cevap8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap9.resx">
+      <DependentUpon>cevap9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quiz.resx">
+      <DependentUpon>quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cevap1.resx">
+      <DependentUpon>cevap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-2438744_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru 9.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru6.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru7.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soru10.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Succodesign-Love-Is-In-The-Web-Heart.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
